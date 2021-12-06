@@ -4,38 +4,41 @@
 <head>
   <meta charset="utf-8">
   <title>HTML Academy: Кэт энерджи</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body class="page__body">
   <header class="page-header">
-    <a class="page-header__logo" href="index.html">
-      <img class="page-header__logo-image" src="img/logo-mobile.svg" width="34" height="38" alt="Кэт энерджи">
-      <img class="page-header__logo-image" src="img/footer-logo.svg" width="101" height="18" alt="Кэт энерджи">
-    </a>
-    <nav class="main-nav">
-      <button class="main-nav__toggle" type="button">
-        <span class="visually-hidden">Открыть меню</span>
-      </button>
-      <div class="main-nav__wrapper">
-        <ul class="main-nav__list">
-          <li class="main-nav__item main-nav__item--active">
-            <a class="main-nav__link" href="index.html">Главная</a>
-          </li>
-          <li class="main-nav__item">
-            <a class="main-nav__link" href="catalog.html">Каталог продукции</a>
-          </li>
-          <li class="main-nav__item">
-            <a class="main-nav__link" href="form.html">Подбор программы</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
+    <div class="page-header__wrapper">
+      <nav class="page-header__main-nav main-nav">
+        <a class="page-header__logo" href="index.html">
+          <img class="page-header__logo-image" src="img/logo-mobile.svg" width="34" height="38" alt="Кэт энерджи">
+          <img class="page-header__logo-image" src="img/footer-logo.svg" width="101" height="18" alt="Кэт энерджи">
+        </a>
+        <button class="main-nav__toggle" type="button">
+          <span class="visually-hidden">Открыть меню</span>
+        </button>
+        <div class="main-nav__wrapper">
+          <ul class="main-nav__list">
+            <li class="main-nav__item main-nav__item--active">
+              <a class="main-nav__link" href="index.html">Главная</a>
+            </li>
+            <li class="main-nav__item">
+              <a class="main-nav__link" href="catalog.html">Каталог продукции</a>
+            </li>
+            <li class="main-nav__item">
+              <a class="main-nav__link" href="form.html">Подбор программы</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
   </header>
   <main class="page-main">
     <div class="page-main__header">
       <h1 class="page-main__title">Каталог продукции</h1>
-    </div>
-    <section class="page-main__catalog-main catalog-main">
+      <section class="page-main__catalog-main catalog-main">
       <h2 class="visually-hidden">Товары</h2>
       <article class="catalog-main__card-product card-product">
         <a class="card-product__image" href="#">
@@ -60,7 +63,7 @@
             </div>
           </dl>
         </div>
-        <a class="card-product__button" href="#">Заказать</a>
+        <a class="card-product__button btn" href="#">Заказать</a>
       </article>
       <article class="catalog-main__card-product card-product">
         <a class="card-product__image" href="#">
@@ -85,7 +88,7 @@
             </div>
           </dl>
         </div>
-        <a class="card-product__button" href="#">Заказать</a>
+        <a class="card-product__button btn" href="#">Заказать</a>
       </article>
       <article class="catalog-main__card-product card-product">
         <a class="card-product__image" href="#">
@@ -110,7 +113,7 @@
             </div>
           </dl>
         </div>
-        <a class="card-product__button" href="#">Заказать</a>
+        <a class="card-product__button btn" href="#">Заказать</a>
       </article>
       <article class="catalog-main__card-product card-product">
         <a class="card-product__image" href="#">
@@ -135,7 +138,7 @@
             </div>
           </dl>
         </div>
-        <a class="card-product__button" href="#">Заказать</a>
+        <a class="card-product__button btn" href="#">Заказать</a>
       </article>
       <article class="catalog-main__card-product card-product">
         <a class="card-product__image" href="#">
@@ -160,7 +163,7 @@
             </div>
           </dl>
         </div>
-        <a class="card-product__button" href="#">Заказать</a>
+        <a class="card-product__button btn" href="#">Заказать</a>
       </article>
       <article class="catalog-main__card-product card-product">
         <a class="card-product__image" href="#">
@@ -185,7 +188,7 @@
             </div>
           </dl>
         </div>
-        <a class="card-product__button" href="#">Заказать</a>
+        <a class="card-product__button btn" href="#">Заказать</a>
       </article>
       <article class="catalog-main__card-product card-product">
         <a class="card-product__image" href="#">
@@ -210,13 +213,13 @@
             </div>
           </dl>
         </div>
-        <a class="card-product__button" href="#">Заказать</a>
+        <a class="card-product__button btn" href="#">Заказать</a>
       </article>
       <div class="catalog-main__products">
         <div class="catalog-main__products-wrapper">
           <p class="catalog-main__products__title">Показать еще 100500 товаров</p>
           <p class="catalog-main__products__text">На самом деле вкусов гораздо больше!</p>
-          <a class="catalog-main__products" href="#">Показать все</a>
+          <a class="catalog-main__button btn btn__grey" href="#">Показать все</a>
         </div>
       </div>
     </section>
@@ -231,7 +234,7 @@
                 <dt class="add-product__list-item">1 упаковка (100 г)</dt>
                 <dd class="add-product__list-price">200 Р.</dd>
               </dl>
-              <a class="add-product__button" href="#">Заказать</a>
+              <a class="add-product__button btn" href="#">Заказать</a>
             </li>
 
             <li class="catalog-add__item add-product">
@@ -240,7 +243,7 @@
                 <dt class="add-product__list-item">5 литров</dt>
                 <dd class="add-product__list-price">50 Р.</dd>
               </dl>
-              <a class="add-product__button" href="#">Заказать</a>
+              <a class="add-product__button btn" href="#">Заказать</a>
             </li>
             <li class="catalog-add__item add-product">
               <h3 class="add-product__title">Молоко</h3>
@@ -248,7 +251,7 @@
                 <dt class="add-product__list-item">1 литр</dt>
                 <dd class="add-product__list-price">100 Р.</dd>
               </dl>
-              <a class="add-product__button" href="#">Заказать</a>
+              <a class="add-product__button btn" href="#">Заказать</a>
             </li>
 
             <li class="catalog-add__item add-product">
@@ -257,7 +260,7 @@
                 <dt class="add-product__list-item">1 упаковка (30 г)</dt>
                 <dd class="add-product__list-price">300 Р.</dd>
               </dl>
-              <a class="add-product__button" href="#">Заказать</a>
+              <a class="add-product__button btn" href="#">Заказать</a>
             </li>
           </ul>
         </div>
@@ -266,16 +269,16 @@
         </div>
       </div>
     </section>
-
+  </div>
   </main>
   <footer class="page-footer">
     <section class="cooperation">
       <div class="cooperation__wrapper">
-        <h2 class="cooperation__title">приглашаем к сотрудничеству дилеров!</h2>
-        <div class="cooperation__adress">
-          <p class="cooperation__street">ул. Большая Конюшенная, д. 19/8</p>
-          <p class="cooperation__city">Санкт-Петербург</p>
-        </div>
+        <h2 class="visually-hidden">Контакты</h2>
+        <p class="cooperation__title">приглашаем к сотрудничеству дилеров!</p>
+        <p class="cooperation__street">ул. Большая Конюшенная, д. 19/8
+          <span class="cooperation__city">Санкт-Петербург</span>
+        </p>
       </div>
       <div class="cooperation__map">
         <img class="cooperation__map-image" src="img/rectangle.jpg" width="320" height="362" alt="Карта">
@@ -286,28 +289,26 @@
         <a class="page-footer__logo" href="index.html">
           <img class="page-footer__logo-image" src="img/footer-logo.svg" width="128" height="23" alt="Кэт энерджи">
         </a>
-        <div class="page-footer__social social">
-          <ul class="social__list">
-            <li class="social__item">
-              <a class="social__link social__link--vkontakte" href="https://vk.com/htmlacademy">Мы в Вконтакте</a>
-            </li>
-            <li class="social__item">
-              <a class="social__link social__link--facebook" href="https://www.facebook.com/htmlacademy">Мы в
-                Фейсбуке</a>
-            </li>
-            <li class="social__item">
-              <a class="social__link social__link--instagram" href="https://www.instagram.com/htmlacademy">Мы в
-                Инстаграме</a>
-            </li>
-          </ul>
-        </div>
-        <div class="page-footer__copyright copyright">
-          <a class="copyright__link" href="https://htmlacademy.ru/intensive/adaptive">HTML Academy</a>
-        </div>
+        <ul class="page-footer__social social">
+          <li class="social__item">
+            <a class="social__link social__link--vkontakte" href="https://vk.com/htmlacademy">Мы в Вконтакте</a>
+          </li>
+          <li class="social__item">
+            <a class="social__link social__link--facebook" href="https://www.facebook.com/htmlacademy">Мы в
+              Фейсбуке</a>
+          </li>
+          <li class="social__item">
+            <a class="social__link social__link--instagram" href="https://www.instagram.com/htmlacademy">Мы в
+              Инстаграме</a>
+          </li>
+        </ul>
+        <a class="page-footer__copyright copyright" href="https://htmlacademy.ru/intensive/adaptive">
+          <b class="copyright__link">HTML Academy</b>
+          <div class="copyright__logo"></div>
+        </a>
       </div>
     </div>
   </footer>
-
 </body>
 
 </html>

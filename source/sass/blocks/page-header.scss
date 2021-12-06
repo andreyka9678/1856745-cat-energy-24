@@ -1,0 +1,9 @@
+.page-header {
+  padding-top: 10px;
+  background-color: #ffffff;
+
+  &__wrapper {
+    min-width: 320px;
+    padding: 0 20px;
+  }
+}

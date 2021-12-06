@@ -1,0 +1,89 @@
+.example {
+  background-color: #eaeaea;
+  padding: 17px 0 36px;
+}
+
+.example__wrapper {
+  min-width: 320px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.example__title {
+  margin: 0 0 23px;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 40px;
+  color: #000000;
+}
+
+.example__text {
+  margin: 0 0 25px;
+  padding-right: 10px;
+  font-family: "Arial", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  color: #444444;
+}
+
+.example__list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0 auto 34px;
+}
+
+.example__stat {
+  width: 124px;
+  text-align: center;
+  padding: 13px 18px 15px;
+  border: 1px solid #cdcdcd;
+  border-radius: 3px;
+}
+
+.example__stat-value {
+  margin: 0;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 24px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.example__stat-item {
+  font-family: "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  margin: 0 auto;
+  padding: 0 10px;
+  color: #444444;
+}
+
+.example__caption {
+  margin: 0;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.example__slider-control {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.example__slider-button {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #000000;
+}
