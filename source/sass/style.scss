@@ -1,10 +1,9 @@
 // Variables
 @import "./includes/variables.scss";
-// Globals
-@import "./includes/global.scss";
 // Fonts
 @import "./includes/fonts.scss";
 // Blocks
+@import "./blocks/page.scss";
 @import "./blocks/page-header.scss";
 @import "./blocks/main-nav.scss";
 @import "./blocks/btn.scss";
@@ -18,8 +17,10 @@
 @import "./blocks/copyright.scss";
 @import "./blocks/page-main.scss";
 @import "./blocks/catalog.scss";
+@import "./blocks/catalog-add.scss";
+@import "./blocks/catalog-main.scss";
 @import "./blocks/card-product.scss";
 @import "./blocks/add-product.scss";
 @import "./blocks/form-feedback.scss";
 // Visually-Hidden
-@import "./blocks/visually-hidden.scss";
+@import "./includes/visually-hidden.scss";

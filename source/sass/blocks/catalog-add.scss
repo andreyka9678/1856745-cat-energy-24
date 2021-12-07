@@ -1,0 +1,47 @@
+.catalog-add__title {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 24px;
+  color: #000000;
+  margin: 0 0 33px -21px;
+  padding-left: 20px;
+  background-color: #ffffff;
+  display: inline-block;
+}
+
+.catalog-add__list {
+  margin: 0;
+  padding: 0;
+}
+
+.catalog-add__item {
+  list-style: none;
+  padding: 13px 0 17px;
+  margin: 0;
+  border-top: 1px solid #cdcdcd;
+}
+
+.catalog-add__promo {
+  background-color: #71b548;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 122px 55px 42px;
+  color: #ffffff;
+  min-height: 289px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  background-size: cover;
+  margin: 0 0 35px;
+}
+
+.catalog-add__promo-text {
+  font-family: "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+  font-weight: 400;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}

@@ -1,0 +1,34 @@
+.catalog-main {
+  border-top: 1px solid #ebebeb;
+  border-bottom: 1px solid #ebebeb;
+}
+
+.catalog-main__products {
+  padding: 80px 20px 24px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.catalog-main__products__title {
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  margin: 0 0 8px;
+  font-weight: 400;
+}
+
+.catalog-main__products__text {
+  font-family: "Arial", sans-serif;
+  font-size: 12px;
+  line-height: 16px;
+  color: #444444;
+  margin: 0 0 21px;
+}
+
+.catalog-main__button {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  padding: 10px 10px 10px 12px;
+}
+
