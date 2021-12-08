@@ -1,0 +1,30 @@
+.cooperation {
+  padding-top: 28px;
+  margin: 0 0 40px;
+}
+
+.cooperation__wrapper {
+  min-width: 320px;
+  margin: 0 auto 20px;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.cooperation__title {
+  margin: 0 18px 0 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #111111;
+}
+
+.cooperation__street {
+  font-family: "Arial", sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: inherit;
+  color: #444444;
+  margin: 0;
+}

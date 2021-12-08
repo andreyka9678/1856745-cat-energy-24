@@ -1,0 +1,32 @@
+.add-product__title {
+  font-size: 16px;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: #222222;
+  margin: 0 0 13px;
+  font-weight: 400;
+}
+
+.add-product__list {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 0 15px;
+}
+
+.add-product__list-item,
+.add-product__list-price {
+  font-family: "Arial", sans-serif;
+  font-size: 14px;
+  line-height: 14px;
+  color: #444444;
+  font-weight: 400;
+  margin: 0;
+}
+
+.add-product__button {
+  font-size: 16px;
+  line-height: 20px;
+  padding: 10px 10px 10px 12px;
+  background-color: #68b738;
+  color: #ffffff;
+}

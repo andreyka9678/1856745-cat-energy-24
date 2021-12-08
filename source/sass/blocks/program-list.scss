@@ -1,0 +1,46 @@
+.program-list {
+  margin: 0 0 20px;
+}
+
+.program-list__type {
+  min-width: 320px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.program-list__content {
+  margin: 0 0 20px;
+  padding: 30px 20px 22px;
+  background-color: #f2f2f2;
+  color: #000000;
+}
+
+.program-list__title {
+  margin: 0 0 29px 71px;
+  font-size: 24px;
+  line-height: 37px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.program-list__text {
+  margin: 0 0 22px;
+  font-family: "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #444444;
+}
+
+.program-list__link {
+  text-decoration: none;
+  color: #000000;
+  text-transform: uppercase;
+  font-size: 16px;
+  line-height: 16px;
+  font-family: inherit;
+  width: 100%;
+  padding-top: 19px;
+  border-top: 1px solid #d9d9d9;
+  display: block;
+}
