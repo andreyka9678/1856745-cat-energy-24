@@ -49,8 +49,7 @@
   color: #000000;
 
   @media (min-width: $tablet-width) {
-    padding-left: 0;
-    padding-right: 0;
+    padding: 0;
     width: auto;
     font-weight: 400;
     font-size: 18px;

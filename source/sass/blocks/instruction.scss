@@ -7,7 +7,7 @@
 }
 
 .instruction__wrapper {
-  min-width: 320px;
+  // min-width: 320px;
   padding: 0 20px;
   margin: 0 auto;
 
@@ -79,7 +79,7 @@
   @media (min-width: $desktop-width) {
     padding-bottom: 20px;
     padding-right: 0;
-    margin-right: 80px;
+    margin-right: auto;
     margin-bottom: 30px;
     min-width: inherit;
     width: 245px;
