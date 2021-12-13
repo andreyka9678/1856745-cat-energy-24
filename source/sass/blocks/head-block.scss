@@ -4,13 +4,27 @@
 }
 
 .head-block__wrapper {
-  margin: 0;
+  margin: 0 auto;
+
+  @media (min-width: $tablet-width) {
+    width: 483px;
+    // margin-right: 50px;
+    // margin-left: 88px;
+    padding-bottom: 530px;
+  }
 }
 
 .head-block__inner {
   background: rgba(104, 183, 56, 0.85);
   text-align: center;
   padding: 28px 20px 152px;
+
+  @media (min-width: $tablet-width) {
+    background-image: none;
+    background-color: inherit;
+    margin-top: 43px;
+    padding: 0;
+  }
 }
 
 .head-block__title {
@@ -21,6 +35,14 @@
   font-weight: 400;
   text-align: center;
   color: #ffffff;
+
+  @media (min-width: $tablet-width) {
+    font-size: 60px;
+    line-height: 60px;
+    text-align: left;
+    color: #000000;
+    margin-bottom: 41px;
+  }
 }
 
 .head-block__text {
@@ -28,6 +50,14 @@
   line-height: 14px;
   text-transform: uppercase;
   color: #ffffff;
+
+  @media (min-width: $tablet-width) {
+    font-size: 20px;
+    line-height: 20px;
+    margin-bottom: 48px;
+    text-align: left;
+    color: #000000;
+  }
 }
 
 .head-block__button {
@@ -36,4 +66,12 @@
   padding: 11px 40px;
   background-color: #68b738;
   width: auto;
+  color: #ffffff;
+
+  @media (min-width: $tablet-width) {
+    width: 245px;
+    margin: 0;
+    font-size: 20px;
+    padding: 17px 0;
+  }
 }

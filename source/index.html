@@ -4,25 +4,25 @@
 <head>
   <meta charset="utf-8">
   <title>HTML Academy: Кэт энерджи</title>
-  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body class="page__body">
   <header class="page-header">
-    <div class="page-header__wrapper">
+    <div class="page-header__wrapper wrapper">
       <nav class="page-header__main-nav main-nav">
         <a class="page-header__logo" href="index.html">
           <img class="page-header__logo-image" src="img/logo-mobile.svg" width="34" height="38" alt="Кэт энерджи">
           <img class="page-header__logo-image" src="img/footer-logo.svg" width="101" height="18" alt="Кэт энерджи">
         </a>
-        <button class="main-nav__toggle" type="button">
-          <span class="visually-hidden">Открыть меню</span>
-        </button>
         <div class="main-nav__wrapper">
+          <button class="main-nav__toggle" type="button">
+            <span class="visually-hidden">Открыть меню</span>
+          </button>
           <ul class="main-nav__list">
             <li class="main-nav__item main-nav__item--active">
-              <a class="main-nav__link" href="index.html">Главная</a>
+              <a class="main-nav__link main-nav__link--active">Главная</a>
             </li>
             <li class="main-nav__item">
               <a class="main-nav__link" href="catalog.html">Каталог продукции</a>
@@ -36,7 +36,7 @@
     </div>
     <section class="head-block">
       <h1 class="visually-hidden">Cat Energy</h1>
-      <div class="head-block__wrapper">
+      <div class="head-block__wrapper wrapper">
         <div class="head-block__inner">
           <h2 class="head-block__title">Функциональное питание для котов</h2>
           <p class="head-block__text">Занялся собой? Займись котом!</p>
@@ -47,7 +47,7 @@
     </section>
   </header>
   <main class="page-main">
-    <section class="program-list">
+    <section class="program-list wrapper">
       <h2 class="visually-hidden">Программы</h2>
       <div class="program-list__type">
         <div class="program-list__content">
@@ -65,7 +65,7 @@
       </div>
     </section>
     <section class="instruction">
-      <div class="instruction__wrapper">
+      <div class="instruction__wrapper wrapper">
         <h2 class="instruction__title">Как это работает</h2>
         <ul class="instruction__list">
           <li class="instruction__list-item">
@@ -84,23 +84,27 @@
       </div>
     </section>
     <section class="example">
-      <div class="example__wrapper">
+      <div class="example__wrapper wrapper">
         <div class="example__inner">
           <h2 class="example__title">Живой пример</h2>
           <p class="example__text">Борис сбросил 5 кг за 2 месяца, просто заменив свой обычный корм на Cat Energy Slim.
             Отличный результат без изнуряющих тренировок! При этом он не менял своих привычек и по-прежнему спит по 16
             часов в день.</p>
           <div class="example__list">
-            <div class="example__stat">
-              <p class="example__stat-value">5 кг</p>
-              <p class="example__stat-item">снижение веса</p>
-            </div>
-            <div class="example__stat">
-              <p class="example__stat-value">60 дней</p>
-              <p class="example__stat-item">затрачено времени</p>
-            </div>
+            <!-- <div class="example__list-wrapper"> -->
+              <div class="example__stat">
+                <p class="example__stat-value">5 кг</p>
+                <p class="example__stat-item">снижение веса</p>
+              </div>
+              <div class="example__stat">
+                <p class="example__stat-value">60 дней</p>
+                <p class="example__stat-item">затрачено времени</p>
+              </div>
+            <!-- </div> -->
+            <p class="example__caption">Затраты на питание:
+              <span>15 000 руб.</span>
+            </p>
           </div>
-          <p class="example__caption">Затраты на питание: 15 000 руб.</p>
         </div>
         <div class="example__slider">
           <div class="example__slider-image">
@@ -131,7 +135,7 @@
       </div>
     </section>
     <div class="page-footer__bottom">
-      <div class="page-footer__bottom-wrapper">
+      <div class="page-footer__bottom-wrapper wrapper">
         <a class="page-footer__logo" href="index.html">
           <img class="page-footer__logo-image" src="img/footer-logo.svg" width="128" height="23" alt="Кэт энерджи">
         </a>

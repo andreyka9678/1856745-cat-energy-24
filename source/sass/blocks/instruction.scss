@@ -1,11 +1,19 @@
 .instruction {
   margin-bottom: 49px;
+
+  @media (min-width: $tablet-width) {
+    margin-bottom: 52px;
+  }
 }
 
 .instruction__wrapper {
-  min-width: 320px;
+  // min-width: 320px;
   padding: 0 20px;
   margin: 0 auto;
+
+  @media (min-width: $tablet-width) {
+    padding: 0 30px;
+  }
 }
 
 .instruction__title {
@@ -14,12 +22,24 @@
   line-height: 40px;
   font-weight: 400;
   color: #000000;
+
+  @media (min-width: $tablet-width) {
+    font-size: 60px;
+    line-height: 60px;
+    margin-bottom: 72px;
+  }
 }
 
 .instruction__list {
   list-style: none;
   margin: 0;
   padding: 0;
+
+  @media (min-width: $tablet-width) {
+    display: flex;
+    flex-wrap: wrap;
+    counter-reset: li;
+  }
 }
 
 .instruction__list-item {
@@ -31,4 +51,33 @@
   font-size: 14px;
   line-height: 18px;
   color: #444444;
+
+  @media (min-width: $tablet-width) {
+    padding-bottom: 50px;
+    padding-right: 75px;
+    margin-bottom: 83px;
+    position: relative;
+    display: block;
+    min-width: 324px;
+    width: 40%;
+    font-size: 16px;
+    line-height: 24px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+
+    &:nth-last-child(2) {
+      margin-bottom: 0;
+    }
+  }
+
+  @media (min-width: $desktop-width) {
+    padding-bottom: 20px;
+    padding-right: 0;
+    margin-right: auto;
+    margin-bottom: 30px;
+    min-width: inherit;
+    width: 245px;
+  }
 }
