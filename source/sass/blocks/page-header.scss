@@ -3,7 +3,14 @@
   background-color: #ffffff;
 }
 
+.page-header--index {
+  @media (min-width: $desktop-width) {
+    background: linear-gradient(to right, #ffffff 50%, #64a83c 50%);
+    height: 694px;
+    margin-bottom: 80px;
+  }
+}
+
 .page-header__wrapper {
-  // min-width: 320px;
   padding: 0 20px;
 }

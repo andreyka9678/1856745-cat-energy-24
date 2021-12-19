@@ -1,5 +1,9 @@
 .page-footer {
   background-color: #ffffff;
+
+  @media (min-width: $tablet-width) {
+    background-color: #f2f2f2;
+  }
 }
 
 .page-footer__bottom {

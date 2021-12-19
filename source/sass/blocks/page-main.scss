@@ -1,7 +1,17 @@
 .page-main__header {
-  min-width: 320px;
+  // min-width: 320px;
   padding: 0 20px;
   margin: 0 auto;
+  max-width: 1300px;
+
+  @media (min-width: $tablet-width) {
+    padding: 0 67px 0 71px;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 1300px;
+    padding: 0 40px;
+  }
 }
 
 .page-main__title {
@@ -11,6 +21,11 @@
   font-size: 36px;
   line-height: 36px;
   color: #000000;
+
+  @media (min-width: $tablet-width) {
+    font-size: 60px;
+    line-height: 60px;
+  }
 }
 
 .page-main__text {
@@ -21,4 +36,10 @@
   color: #000000;
   margin: 0 0 19px;
   padding-right: 20px;
+
+  @media (min-width: $tablet-width) {
+    font-size: 20px;
+    line-height: 30px;
+    width: 350px;
+  }
 }
