@@ -158,6 +158,10 @@
     width: fit-content;
     background-color: #ffffff;
   }
+
+  @media (min-width: $desktop-width) {
+    background-color: #f2f2f2;
+  }
 }
 
 .example__caption {
@@ -179,7 +183,6 @@
   }
 
   @media (min-width: $desktop-width) {
-    width: auto;
     display: flex;
     justify-content: space-between;
     width: 340px;
