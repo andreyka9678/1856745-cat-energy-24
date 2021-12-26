@@ -8,9 +8,18 @@
   // min-width: 320px;
   margin: 0 auto;
   padding: 0 20px;
+  max-width: 1300px;
 
   @media (min-width: $tablet-width) {
     padding: 0 67px 0 71px;
+  }
+}
+
+.form-feedback__control {
+  @media (min-width: $desktop-width) {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
   }
 }
 
@@ -19,6 +28,12 @@
   margin: 0 0 0 -20px;
   padding: 20px 20px 9px;
   width: 100%;
+}
+
+.form-feedback__parameters {
+  @media (min-width: $desktop-width) {
+    width: 570px;
+  }
 }
 
 .form-feedback__list {
@@ -30,6 +45,14 @@
     padding-right: 0;
     // border: 1px solid #d9d9d9;
     margin: 0 0 47px;
+  }
+}
+
+.form-feedback__list--owner {
+  @media (min-width: $desktop-width) {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
   }
 }
 
@@ -70,6 +93,12 @@
 
   @media (min-width: $tablet-width) {
     margin-bottom: 20px;
+  }
+}
+
+.form-feedback__list-item--owner {
+  @media (min-width: $desktop-width) {
+    width: 570px;
   }
 }
 
@@ -121,6 +150,11 @@
     margin-left: -1px;
     margin-bottom: 2px;
     box-shadow: 0 0 2px rgba(#cdcdcd, 1);
+
+    @media (min-width: $tablet-width) {
+      width: 21px;
+      height: 21px;
+    }
   }
 
   .form-feedback__radio:checked + &::before {
@@ -132,6 +166,10 @@
     line-height: 30px;
     padding: 9px 18px;
     margin: 0;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding: 0;
   }
 }
 
@@ -162,6 +200,10 @@
     margin: 0 0 0 -40px;
     padding: 20px 20px 9px;
     width: 100%;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 570px;
   }
 }
 
@@ -235,7 +277,7 @@
   }
 
   .form-feedback__checkbox:checked + &::before {
-    background-image: url("/img/icon_checked.svg");
+    background-image: url("../img/icon_checked.svg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: 21px 16px;

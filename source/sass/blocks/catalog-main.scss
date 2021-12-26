@@ -1,12 +1,65 @@
 .catalog-main {
   border-top: 1px solid #ebebeb;
   border-bottom: 1px solid #ebebeb;
+  margin-left: -20px;
+  margin-right: -20px;
+
+  @media (min-width: $tablet-width) {
+    display: flex;
+    flex-wrap: wrap;
+    border: 0;
+    margin: 0;
+  }
 }
 
 .catalog-main__products {
   padding: 80px 20px 24px;
   text-align: center;
-  margin-bottom: 30px;
+  // margin-bottom: 30px;
+  // margin-left: -20px;
+  // margin-right: -20px;
+  position: relative;
+  // border-bottom: 1px solid #ebebeb;
+
+  &::before {
+    content: "";
+    width: 30px;
+    height: 30px;
+    background-image: url("../img/plus-mobile.svg");
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: 26px;
+    display: block;
+
+    @media (min-width: $tablet-width) {
+      width: 60px;
+      height: 60px;
+      top: 54px;
+      background-image: url("../img/icon-plus.svg");
+    }
+  }
+
+  @media (min-width: $tablet-width) {
+    min-width: 324px;
+    width: 45%;
+    box-sizing: border-box;
+    border: 1px solid #f2f2f2;
+    text-align: center;
+    padding: 163px 37px 37px;
+    margin: 85px 0 55px;
+  }
+
+  @media (min-width: $desktop-width) {
+    min-width: inherit;
+    width: 245px;
+    box-sizing: border-box;
+    border: 1px solid #f2f2f2;
+    text-align: center;
+    padding: 163px 37px 37px;
+    margin: 85px 0 55px;
+  }
 }
 
 .catalog-main__products__title {
@@ -15,6 +68,13 @@
   text-transform: uppercase;
   margin: 0 0 8px;
   font-weight: 400;
+
+  @media (min-width: $tablet-width) {
+    font-size: 20px;
+    line-height: 22px;
+    width: 150px;
+    margin: 0 auto 25px;
+  }
 }
 
 .catalog-main__products__text {
@@ -23,11 +83,18 @@
   line-height: 16px;
   color: #444444;
   margin: 0 0 21px;
+
+  @media (min-width: $tablet-width) {
+    font-size: 16px;
+    line-height: 20px;
+    width: 180px;
+    margin: 0 auto 80px;
+  }
 }
 
 .catalog-main__button {
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
-  padding: 10px 10px 10px 12px;
+  padding: 10px 0;
 }

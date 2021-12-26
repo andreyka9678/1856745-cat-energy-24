@@ -93,7 +93,7 @@
   }
 
   &--slim::after {
-    background-image: url("/img/cat-slim.svg");
+    background-image: url("../img/cat-slim.svg");
     background-position: center;
     top: -8px;
     left: -68px;
@@ -115,7 +115,7 @@
   }
 
   &--pro::after {
-    background-image: url("/img/cat-pro.svg");
+    background-image: url("../img/cat-pro.svg");
     background-position: center;
     width: 67px;
     left: -78px;
@@ -199,7 +199,7 @@
     width: 24px;
     height: 11px;
     margin-left: 12px;
-    background-image: url("/img/icon-right-arrow.svg");
+    background-image: url("../img/icon-right-arrow.svg");
     background-repeat: no-repeat;
   }
 

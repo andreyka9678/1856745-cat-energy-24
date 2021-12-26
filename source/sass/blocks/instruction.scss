@@ -54,7 +54,6 @@
 
   &::before {
     content: "";
-    display: inline-block;
     width: 60px;
     height: 60px;
     background-color: #68b738;
@@ -92,19 +91,19 @@
   }
 
   &--leaf::before {
-    background-image: url("/img/icon_leaf.svg");
+    background-image: url("../img/icon_leaf.svg");
   }
 
   &--tub::before {
-    background-image: url("/img/icon_tub.svg");
+    background-image: url("../img/icon_tub.svg");
   }
 
   &--eat::before {
-    background-image: url("/img/icon_eat.svg");
+    background-image: url("../img/icon_eat.svg");
   }
 
   &--alarm::before {
-    background-image: url("/img/icon_alarm.svg");
+    background-image: url("../img/icon_alarm.svg");
   }
 
   @media (min-width: $tablet-width) {

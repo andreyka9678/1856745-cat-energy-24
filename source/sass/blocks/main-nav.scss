@@ -1,5 +1,6 @@
 .main-nav__menu {
   position: relative;
+  margin: 12px 0 0;
 }
 
 @media (min-width: $tablet-width) {
@@ -27,6 +28,7 @@
   &::before {
     content: "";
     position: absolute;
+    right: 0;
     width: 24px;
     height: 2px;
     background-color: #000000;
