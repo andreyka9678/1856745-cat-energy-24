@@ -1,9 +1,11 @@
 .cooperation {
   margin: 0 auto;
+  padding-top: 26px;
 
   @media (min-width: $tablet-width) {
     padding-top: 0;
     margin-bottom: 0;
+    position: relative;
   }
 }
 
@@ -16,8 +18,18 @@
 
   @media (min-width: $tablet-width) {
     margin: 0;
-    padding: 63px 40px 60px;
+    padding: 63px 67px 63px 71px;
     align-items: center;
+  }
+
+  @media (min-width: $desktop-width) {
+    position: absolute;
+    z-index: 100;
+    top: 95px;
+    left: 40px;
+    width: 570px;
+    padding: 62px 76px 59px;
+    background-color: #ffffff;
   }
 }
 
@@ -53,7 +65,13 @@
   }
 }
 
-.cooperation__map {
+.cooperation__map iframe {
+
+  border: none;
+  display: block;
+  width: 100%;
+  height: 362px;
+
   @media (min-width: $tablet-width) {
     height: 396px;
   }

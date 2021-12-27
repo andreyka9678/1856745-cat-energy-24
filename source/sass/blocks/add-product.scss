@@ -5,12 +5,31 @@
   color: #222222;
   margin: 0 0 13px;
   font-weight: 400;
+
+  @media (min-width: $tablet-width) {
+    font-size: 20px;
+    line-height: 20px;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 325px;
+    margin: 0;
+  }
 }
 
 .add-product__list {
   display: flex;
   justify-content: space-between;
   margin: 0 0 15px;
+
+  @media (min-width: $tablet-width) {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin: 0;
+  }
 }
 
 .add-product__list-item,
@@ -23,10 +42,21 @@
   margin: 0;
 }
 
+@media (min-width: $tablet-width) {
+  .add-product__list-price {
+    width: 96px;
+    text-align: right;
+  }
+}
+
 .add-product__button {
   font-size: 16px;
   line-height: 20px;
-  padding: 10px 10px 10px 12px;
+  padding: 10px 0;
   background-color: #68b738;
   color: #ffffff;
+
+  @media (min-width: $desktop-width) {
+    width: 245px;
+  }
 }

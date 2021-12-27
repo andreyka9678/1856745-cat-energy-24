@@ -52,14 +52,68 @@
   line-height: 18px;
   color: #444444;
 
+  &::before {
+    content: "";
+    width: 60px;
+    height: 60px;
+    background-color: #68b738;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 20px;
+    vertical-align: middle;
+    flex-shrink: 0;
+
+    @media (min-width: $tablet-width) {
+      width: 80px;
+      height: 80px;
+      margin-bottom: 32px;
+      display: block;
+    }
+  }
+
+  &::after {
+    position: absolute;
+    z-index: -1;
+    font-family: "Oswald", sans-serif;
+    color: #f2f2f2;
+    text-align: center;
+
+    @media (min-width: $tablet-width) {
+      content: counter(li, decimal);
+      counter-increment: li;
+      top: -38px;
+      right: 50px;
+      width: 136px;
+      height: 280px;
+      font-size: 280px;
+      line-height: 280px;
+    }
+  }
+
+  &--leaf::before {
+    background-image: url("../img/icon_leaf.svg");
+  }
+
+  &--tub::before {
+    background-image: url("../img/icon_tub.svg");
+  }
+
+  &--eat::before {
+    background-image: url("../img/icon_eat.svg");
+  }
+
+  &--alarm::before {
+    background-image: url("../img/icon_alarm.svg");
+  }
+
   @media (min-width: $tablet-width) {
     padding-bottom: 50px;
-    padding-right: 75px;
+    padding-right: 70px;
     margin-bottom: 83px;
     position: relative;
     display: block;
-    min-width: 324px;
-    width: 40%;
+    // min-width: 324px;
+    width: 35%;
     font-size: 16px;
     line-height: 24px;
 
@@ -79,5 +133,11 @@
     margin-bottom: 30px;
     min-width: inherit;
     width: 245px;
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .instruction__list-item:nth-child(2n-1) {
+    margin-right: auto;
   }
 }
