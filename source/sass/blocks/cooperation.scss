@@ -20,6 +20,7 @@
     margin: 0;
     padding: 63px 67px 63px 71px;
     align-items: center;
+    background-color: #ffffff;
   }
 
   @media (min-width: $desktop-width) {
@@ -59,9 +60,16 @@
   @media (min-width: $tablet-width) {
     font-size: 16px;
     line-height: 20px;
-    width: 200px;
+    width: 180px;
     text-align: right;
     padding-right: 2px;
+  }
+}
+
+.cooperation__city {
+  @media (min-width: $tablet-width) {
+    margin-top: 20px;
+    display: block;
   }
 }
 
