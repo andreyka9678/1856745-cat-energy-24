@@ -157,10 +157,6 @@
     padding-top: 20px;
     font-size: 20px;
     line-height: 30px;
-
-    &--active::after {
-      background-color: #ffffff;
-    }
   }
 }
 
@@ -174,5 +170,11 @@
 @media (min-width: $tablet-width) {
   .main-nav__toggle {
     display: none;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .main-nav__link--index.main-nav__link--active::after {
+    background-color: #ffffff;
   }
 }
