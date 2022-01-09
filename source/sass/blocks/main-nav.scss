@@ -14,7 +14,7 @@
 
 .main-nav__toggle {
   position: absolute;
-  top: -42px;
+  top: -52px;
   right: 0;
   cursor: pointer;
   border: 0;
@@ -154,7 +154,6 @@
 .main-nav__link--index {
   @media (min-width: $desktop-width) {
     color: #ffffff;
-    padding-top: 20px;
     font-size: 20px;
     line-height: 30px;
   }
