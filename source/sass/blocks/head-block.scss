@@ -1,12 +1,12 @@
 .head-block {
   margin: 0 0 22px;
   min-width: 320px;
-  background-image: url("/img/index-background-mobile.jpg"), linear-gradient(to bottom, #65a93c 302px, #ffffff 302px);
+  background-image: url("../img/index-background-mobile.jpg"), linear-gradient(to bottom, #65a93c 302px, #ffffff 302px);
   background-repeat: no-repeat;
   background-position: top center;
 
   @media (min-resolution: 2dppx) {
-    background-image: url("/img/index-background-mobile@2x.jpg"), linear-gradient(to bottom, #65a93c 302px, #ffffff 302px);
+    background-image: url("../img/index-background-mobile@2x.jpg"), linear-gradient(to bottom, #65a93c 302px, #ffffff 302px);
     background-size: auto 302px;
   }
 
@@ -52,7 +52,7 @@
 .head-block__inner {
   text-align: center;
   padding: 28px 20px 152px;
-  // background-image: url("/img/index-background-mobile.jpg");
+  // background-image: url("../img/index-background-mobile.jpg");
   // background-repeat: no-repeat;
   // background-position: center;
 

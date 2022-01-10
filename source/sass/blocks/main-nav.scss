@@ -44,8 +44,8 @@
   .main-nav__opened .main-nav__list {
     position: absolute;
     top: 0;
-    right: 0;
-    width: 100%;
+    left: -20px;
+    width: calc(100% + 40px);
     background-color: #ffffff;
   }
 
@@ -85,6 +85,7 @@
   list-style: none;
   margin: 0;
   padding: 0;
+  z-index: 10;
 
   @media (min-width: $tablet-width) {
     display: flex;
