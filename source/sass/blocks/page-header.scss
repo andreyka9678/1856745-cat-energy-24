@@ -8,14 +8,32 @@
   }
 }
 
+.page-header__logo {
+  &:hover {
+    opacity: 0.6;
+  }
+
+  &:active {
+    opacity: 0.3;
+  }
+}
+
 .page-header--index {
 
   border: none;
 
   @media (min-width: $desktop-width) {
-    background: linear-gradient(to right, #ffffff 50%, #64a83c 50%);
-    height: 694px;
+    background-image: url("../img/index-background-desktop.jpg"), linear-gradient(to right, #ffffff 50%, #64a83c 50%);
+    background-repeat: no-repeat;
+    background-position: right top;
+    // height: 694px;
     margin-bottom: 80px;
+    padding-top: 30px;
+
+    @media (min-resolution: 2dppx) {
+      background-image: url("../img/index-background-desktop@2x.jpg"), linear-gradient(to right, #ffffff 50%, #64a83c 50%);
+      background-size: auto 694px;
+    }
   }
 }
 
@@ -28,5 +46,12 @@
 
   @media (min-width: $tablet-width) {
     padding-right: 20px;
+    width: 174px;
+    height: auto;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 202px;
+    height: auto;
   }
 }

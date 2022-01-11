@@ -88,6 +88,10 @@
       font-size: 280px;
       line-height: 280px;
     }
+
+    @media (min-width: $desktop-width) {
+      right: 5px;
+    }
   }
 
   &--leaf::before {
@@ -133,6 +137,10 @@
     margin-bottom: 30px;
     min-width: inherit;
     width: 245px;
+
+    &:last-child {
+      margin-right: 0;
+    }
   }
 }
 

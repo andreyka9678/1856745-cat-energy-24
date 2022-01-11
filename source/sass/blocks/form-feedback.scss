@@ -59,7 +59,7 @@
 .form-feedback__list-extra {
   // border-bottom: 1px solid #d9d9d9;
   margin: 0 0 0 -20px;
-  padding: 20px 20px 9px;
+  padding: 0 20px 9px;
 
   @media (min-width: $tablet-width) {
     padding-right: 0;
@@ -90,6 +90,7 @@
   justify-content: flex-start;
   align-items: center;
   margin: 0 0 14px;
+  position: relative;
 
   @media (min-width: $tablet-width) {
     margin-bottom: 20px;
@@ -112,6 +113,11 @@
   @media (min-width: $tablet-width) {
     margin-bottom: 20px;
     width: 285px;
+    margin-right: 60px;
+
+    &:nth-child(2n) {
+      margin-right: 0;
+    }
   }
 }
 
@@ -181,7 +187,20 @@
   text-transform: uppercase;
   font-weight: 400;
   color: #444444;
+  border: 1px solid #e7e7e7;
   padding: 12px 15px 13px;
+
+  &:hover {
+    border: 1px solid #cdcdcd;
+  }
+
+  &:focus {
+    border: 2px solid #444444;
+  }
+
+  &:focus + .form-feedback__image {
+    color: #68b738;
+  }
 
   @media (min-width: $tablet-width) {
     font-size: 20px;
@@ -189,6 +208,20 @@
     padding: 9px 18px;
     margin: 0;
   }
+}
+
+.form-feedback__image {
+  position: absolute;
+}
+
+.form-feedback__image--email {
+  right: 16px;
+  top: 16px;
+}
+
+.form-feedback__image--phone {
+  right: 18px;
+  top: 13px;
 }
 
 .form-feedback__programs {
@@ -215,7 +248,7 @@
   display: inline-block;
   padding-right: 22px;
   padding-left: 20px;
-  margin: 0 0 34px -21px;
+  margin: 0 0 10px -21px;
   font-weight: 400;
   width: min-content;
 
@@ -234,6 +267,8 @@
   @media (min-width: $tablet-width) {
     font-size: 36px;
     line-height: 36px;
+    width: auto;
+    margin-bottom: 50px;
   }
 }
 
@@ -252,6 +287,8 @@
   @media (min-width: $tablet-width) {
     font-size: 20px;
     line-height: 30px;
+    height: 174px;
+    margin-bottom: 50px;
   }
 }
 
@@ -266,13 +303,23 @@
   font-weight: 400;
   color: #000000;
 
+  &:active {
+    opacity: 0.3;
+  }
+
+  &:hover {
+    &::before {
+      border: 1px solid #bababa;
+    }
+  }
+
   &::before {
     content: "";
     display: inline-block;
     vertical-align: middle;
     width: 30px;
     height: 30px;
-    border: 1px solid #d9d9d9;
+    border: 1px solid #cdcdcd;
     margin-right: 15px;
   }
 
@@ -322,6 +369,10 @@
     padding-top: 15px;
     padding-bottom: 17px;
     padding-left: 20px;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 568px;
   }
 }
 

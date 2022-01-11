@@ -20,4 +20,12 @@
 .btn--grey {
   background-color: #f2f2f2;
   color: #444444;
+
+  &:hover {
+    background-color: #ebebeb;
+  }
+
+  &:active {
+    background-color: #ebebeb;
+  }
 }
