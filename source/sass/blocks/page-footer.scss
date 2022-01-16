@@ -9,14 +9,18 @@
 .page-footer__bottom {
   // min-width: 320px;
 
-  padding-top: 40px;
+  padding-top: 43px;
   padding-bottom: 30px;
   margin: 0 auto;
   background-color: #f2f2f2;
 
   @media (min-width: $tablet-width) {
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 55px;
+    padding-bottom: 50px;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding-top: 60px;
   }
 }
 
@@ -48,7 +52,7 @@
 }
 
 .page-footer__social {
-  margin-bottom: 13px;
+  margin-bottom: 20px;
 
   @media (min-width: $tablet-width) {
     margin-bottom: 2px;
