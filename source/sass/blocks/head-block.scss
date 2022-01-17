@@ -14,6 +14,7 @@
     position: relative;
     background-image: none;
     padding: 0 30px;
+    margin: 0;
   }
 }
 
@@ -21,7 +22,7 @@
   margin: 0 auto;
 
   @media (min-width: $tablet-width) {
-    padding-bottom: 530px;
+    padding-bottom: 580px;
     margin: 0 auto;
     width: 535px;
   }
@@ -38,12 +39,14 @@
 .head-block__container {
   @media (min-width: $tablet-width) {
     position: relative;
+    margin-left: -30px;
+    padding-top: 10px;
   }
 
   @media (min-width: $desktop-width) {
-    padding-left: 120px;
+    padding-left: 80px;
     margin-left: 0;
-    padding-bottom: 190px;
+    padding-bottom: 240px;
     width: 600px;
     position: relative;
   }
@@ -51,7 +54,7 @@
 
 .head-block__inner {
   text-align: center;
-  padding: 28px 20px 152px;
+  padding: 28px 10px 152px;
   // background-image: url("../img/index-background-mobile.jpg");
   // background-repeat: no-repeat;
   // background-position: center;
@@ -65,7 +68,7 @@
 
   @media (min-width: $desktop-width) {
     width: 450px;
-    padding-top: 100px;
+    padding-top: 50px;
   }
 }
 
@@ -105,6 +108,7 @@
 .head-block__button {
   display: block;
   margin: 0;
+  margin-top: 7px;
   padding: 11px 40px;
   background-color: #68b738;
   width: auto;
@@ -131,8 +135,8 @@
     // z-index: -1;
     height: 609px;
     width: auto;
-    top: 350px;
-    left: -80px;
+    top: 390px;
+    left: -90px;
     // display: block;
   }
 
@@ -141,7 +145,7 @@
     // z-index: -1;
     height: 499px;
     width: auto;
-    top: 200px;
+    top: 160px;
     left: 450px;
     display: block;
   }
