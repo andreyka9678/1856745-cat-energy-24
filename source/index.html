@@ -5,6 +5,8 @@
   <meta charset="utf-8">
   <title>HTML Academy: Кэт энерджи</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="preload" href="fonts/oswaldmedium.woff2" as="font">
+  <link rel="preload" href="fonts/oswaldregular.woff2" as="font">
   <link rel="stylesheet" href="css/style.min.css">
   <link rel="icon" href="favicon.ico">
   <link rel="icon" href="img/icon.svg" type="image/svg+xml">
@@ -83,6 +85,7 @@
           <picture>
             <source type="image/webp" media="(min-width: 1300px)" srcset="img/index-can-desktop.webp 1x, img/index-can-desktop@2x.webp 2x">
             <source type="image/webp" media="(min-width: 768px)" srcset="img/index-can-tablet.webp 1x, img/index-can-tablet@2x.webp 2x">
+            <source type="image/webp" media="(min-width: 320px)" srcset="img/index-can-mobile.webp 1x, img/index-can-mobile@2x.webp 2x">
             <source media="(min-width: 1300px)" srcset="img/index-can-desktop.png 1x, img/index-can-desktop@2x.png 2x">
             <source media="(min-width: 768px)" srcset="img/index-can-tablet.png 1x, img/index-can-tablet@2x.png 2x">
             <img class="head-block__image" src="img/index-can-mobile.png" srcset="img/index-can-mobile@2x.png 2x"
@@ -158,6 +161,7 @@
             <div class="example__slider-before">
               <picture>
                 <source type="image/webp" media="(min-width: 768px)" srcset="img/before-tablet.webp 1x, img/before-tablet@2x.webp 2x">
+                <source type="image/webp" media="(min-width: 320px)" srcset="img/before-mobile.webp 1x, img/before-mobile@2x.webp 2x">
                 <source media="(min-width: 768px)" srcset="img/before-tablet.png 1x, img/before-tablet@2x.png 2x">
                 <img class="example__slider-picture" src="img/before-mobile.png" srcset="img/before-mobile@2x.png 2x"
                   alt="Кот до">
@@ -165,8 +169,9 @@
             </div>
             <div class="example__slider-after">
               <picture>
-                <img class="example__slider-picture-after" src="img/after-tablet.png"
-                  srcset="img/after-tablet@2x.png 2x" alt="Кот до">
+                <source type="image/webp" media="(min-width: 768px)" srcset="img/after-tablet.webp 1x, img/after-tablet@2x.webp 2x">
+                <source media="(min-width: 768px)" srcset="img/before-tablet.png 1x, img/before-tablet@2x.png 2x">
+                <img class="example__slider-picture-after" src="img/after-tablet.png" srcset="img/after-tablet@2x.png 2x" alt="Кот до">
               </picture>
             </div>
           </div>
