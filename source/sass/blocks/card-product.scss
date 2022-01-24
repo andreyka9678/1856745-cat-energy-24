@@ -2,8 +2,6 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   padding: 5px 20px 23px;
-  // margin-left: -20px;
-  // margin-right: -20px;
   border-bottom: 1px solid#ebebeb;
 
   @media (min-width: $tablet-width) {
@@ -64,15 +62,13 @@
   }
 }
 
-// .card-product__description {
-//   padding: 6px 0;
-// }
+.card-product__picture {
+  margin-top: 15px;
 
-// .card-product__image-big {
-//   @media (min-width: $desktop-width) {
-//     margin-top: -15px;
-//   }
-// }
+  @media (min-width: $tablet-width) {
+    margin-top: 0;
+  }
+}
 
 .card-product__title {
   padding-right: 45px;

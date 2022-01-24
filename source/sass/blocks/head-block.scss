@@ -55,9 +55,6 @@
 .head-block__inner {
   text-align: center;
   padding: 28px 10px 152px;
-  // background-image: url("../img/index-background-mobile.jpg");
-  // background-repeat: no-repeat;
-  // background-position: center;
 
   @media (min-width: $tablet-width) {
     background-image: none;
@@ -132,17 +129,14 @@
 
   @media (min-width: $tablet-width) {
     position: absolute;
-    // z-index: -1;
     height: 609px;
     width: auto;
     top: 390px;
     left: -90px;
-    // display: block;
   }
 
   @media (min-width: $desktop-width) {
     position: absolute;
-    // z-index: -1;
     height: 499px;
     width: auto;
     top: 160px;

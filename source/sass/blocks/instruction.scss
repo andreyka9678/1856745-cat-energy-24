@@ -11,7 +11,6 @@
 }
 
 .instruction__wrapper {
-  // min-width: 320px;
   padding: 0 20px;
   margin: 0 auto;
 
@@ -83,7 +82,7 @@
   &::after {
     position: absolute;
     z-index: -1;
-    font-family: "Oswald", sans-serif;
+    font-family: "Oswald", "Arial", sans-serif;
     color: #f2f2f2;
     text-align: center;
 
@@ -125,7 +124,6 @@
     margin-bottom: 83px;
     position: relative;
     display: block;
-    // min-width: 324px;
     width: 35%;
     font-size: 16px;
     line-height: 24px;

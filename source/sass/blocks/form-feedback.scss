@@ -9,7 +9,6 @@
 }
 
 .form-feedback__wrapper {
-  // min-width: 320px;
   margin: 0 auto;
   padding: 0 20px;
   max-width: 1300px;
@@ -47,13 +46,11 @@
 }
 
 .form-feedback__list {
-  // border-bottom: 1px solid #d9d9d9;
   margin: 0;
   padding: 0;
 
   @media (min-width: $tablet-width) {
     padding-right: 0;
-    // border: 1px solid #d9d9d9;
     margin: 0 0 47px;
   }
 }
@@ -73,7 +70,6 @@
 }
 
 .form-feedback__list-extra {
-  // border-bottom: 1px solid #d9d9d9;
   margin: 2px 0 0 -20px;
   padding: 0 20px 15px;
 
@@ -81,7 +77,6 @@
     padding-right: 0;
     padding-top: 5px;
     padding-bottom: 23px;
-    // border: 1px solid #d9d9d9;
     margin: 0;
     display: flex;
     flex-wrap: wrap;
@@ -90,7 +85,7 @@
   @media (min-width: $desktop-width) {
     padding-top: 0;
     padding-bottom: 35px;
-    margin-top: -10px;
+    margin-top: -7px;
   }
 }
 
@@ -102,11 +97,13 @@
   width: 100%;
 
   @media (min-width: $tablet-width) {
-    // padding-right: 0;
-    // padding-top: 27px;
     padding: 27px 0 10px 25px;
     border: 1px solid #d9d9d9;
     margin: 0 0 52px;
+  }
+
+  @media (min-width: $desktop-width)  {
+    width: auto;
   }
 }
 
@@ -127,7 +124,7 @@
   margin-top: 8px;
 
   &:last-child {
-    margin-bottom: 7px;
+    margin-bottom: 2px;
   }
 
   @media (min-width: $desktop-width) {
@@ -141,7 +138,6 @@
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  // margin: 0 0 14px;
 
   @media (min-width: $tablet-width) {
     margin-bottom: 20px;
@@ -185,7 +181,7 @@
 }
 
 .form-feedback__message {
-  padding-bottom: 10px;
+  padding-bottom: 2px;
   padding-top: 0;
 
   @media (min-width: $tablet-width) {
@@ -199,6 +195,7 @@
   @media (min-width: $desktop-width) {
     margin-bottom: 60px;
     padding-left: 20px;
+    width: auto;
   }
 }
 
@@ -238,7 +235,7 @@
   text-transform: uppercase;
   font-weight: 400;
   color: #444444;
-  margin: 0 14px 2px -1px;
+  margin: 0 14px 0 1px;
 
   &::before {
     content: "";
@@ -257,8 +254,14 @@
     @media (min-width: $tablet-width) {
       width: 21px;
       height: 21px;
-      margin-right: 25px;
-    }
+      margin-right: 22px;
+      margin-top: -4px;
+      margin-left: 3px;
+   }
+
+   @media (min-width: $desktop-width) {
+     margin-top: -3px;
+   }
   }
 
   .form-feedback__radio:checked + &::before {
@@ -268,7 +271,6 @@
   @media (min-width: $tablet-width) {
     font-size: 20px;
     line-height: 30px;
-    // padding: 9px 18px;
     margin: 0;
   }
 
@@ -293,7 +295,7 @@
   }
 
   &:focus {
-    border: 2px solid #444444;
+    outline: 2px solid #444444;
   }
 
   &:focus + .form-feedback__image {
@@ -327,20 +329,23 @@
   padding: 0 0 6px 20px;
 
   @media (min-width: $tablet-width) {
-    // border: none;
-    // margin: 0 20px 0 -60px;
     padding: 20px 0 9px 20px;
     width: calc(100% - 20px);
   }
 
   @media (min-width: $desktop-width) {
     width: 570px;
+    margin: 0;
   }
 }
 
 .form-feedback__programs-item {
   @media (min-width: $tablet-width) {
-    margin-bottom: 13px;
+    margin-bottom: 15px;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-right: 20px;
   }
 }
 
@@ -352,7 +357,7 @@
   display: inline-block;
   padding-right: 22px;
   padding-left: 20px;
-  padding-top: 15px;
+  padding-top: 20px;
   margin: 0 0 10px -21px;
   font-weight: 400;
   width: min-content;
@@ -380,6 +385,7 @@
     margin-bottom: 50px;
     padding-right: 40px;
     padding-left: 40px;
+    padding-top: 15px;
   }
 
   @media (min-width: $desktop-width) {
@@ -411,10 +417,10 @@
   }
 
   @media (min-width: $desktop-width) {
-    margin-top: 21px;
+    margin-top: 15px;
     padding-top: 5px;
-    padding-left: 20px;
-    margin-left: 14px;
+    padding-left: 13px;
+    margin-left: 25px;
   }
 }
 
@@ -471,8 +477,6 @@
 }
 
 .form-feedback__button-block {
-  // min-width: 320px;
-  // padding: 0 20px;
   margin: 0 auto;
 
   @media (min-width: $tablet-width) {

@@ -1,5 +1,4 @@
 .program-list {
-  // margin: 0 0 20px;
 
   @media (min-width: $tablet-width) {
     margin-bottom: 45px;
@@ -7,7 +6,6 @@
 }
 
 .program-list__type {
-  // min-width: 320px;
   margin: 0 auto;
   padding: 0;
 
@@ -224,6 +222,13 @@
 
   &:active {
     opacity: 0.3;
+  }
+
+  &:hover::after,
+  &:focus::after {
+    background-image: url("../img/icon-right-arrowlong.svg");
+    width: 33px;
+    transition: 0.15s ease;
   }
 
   @media (min-width: $tablet-width) {
