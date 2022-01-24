@@ -257,11 +257,11 @@
       margin-right: 22px;
       margin-top: -4px;
       margin-left: 3px;
-   }
+    }
 
-   @media (min-width: $desktop-width) {
-     margin-top: -3px;
-   }
+    @media (min-width: $desktop-width) {
+      margin-top: -3px;
+    }
   }
 
   .form-feedback__radio:checked + &::before {
