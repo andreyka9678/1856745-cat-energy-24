@@ -1,10 +1,10 @@
 .example {
   background-color: #eaeaea;
-  padding: 25px 0 43px;
+  padding: 25px 0 45px;
 
   @media (min-width: $tablet-width) {
     border-top: 1px solid #d9d9d9;
-    padding: 43px 0 55px;
+    padding: 43px 0 58px;
     background-color: #ffffff;
     background-image: linear-gradient(to bottom, #ffffff 615px, #eaeaea 615px);
   }
@@ -83,7 +83,7 @@
 
 .example__list {
   flex-wrap: wrap;
-  margin: 0 auto 34px;
+  margin: 0 auto 40px;
   align-items: center;
 
   @media (min-width: $tablet-width) {
@@ -124,6 +124,7 @@
 
   @media (min-width: $tablet-width) {
     width: 162px;
+    padding-bottom: 19px;
   }
 
   @media (min-width: $desktop-width) {
@@ -202,12 +203,6 @@
   }
 }
 
-.example__slider {
-  @media (min-width: $desktop-width) {
-    margin-right: -20px;
-  }
-}
-
 .example__slider-image {
   display: flex;
   justify-content: center;
@@ -217,14 +212,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 25px;
+  margin-top: 17px;
 
   @media (min-width: $tablet-width) {
-    margin-top: 30px;
-  }
-
-  @media (min-width: $desktop-width) {
-    padding-right: 15px;
+    margin-top: 27px;
   }
 }
 
@@ -274,14 +265,8 @@
   }
 
   @media (min-width: $desktop-width) {
-    width: 316px;
+    width: 296px;
     overflow: hidden;
-  }
-}
-
-.example__slider-picture-after {
-  @media (min-width: $tablet-width) {
-    margin-left: -240px;
   }
 }
 
