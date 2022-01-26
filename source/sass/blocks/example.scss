@@ -1,10 +1,10 @@
 .example {
   background-color: #eaeaea;
-  padding: 25px 0 43px;
+  padding: 25px 0 45px;
 
   @media (min-width: $tablet-width) {
     border-top: 1px solid #d9d9d9;
-    padding: 43px 0 60px;
+    padding: 43px 0 58px;
     background-color: #ffffff;
     background-image: linear-gradient(to bottom, #ffffff 615px, #eaeaea 615px);
   }
@@ -13,11 +13,11 @@
     border: none;
     background: linear-gradient(to bottom, #ffffff 210px, #f2f2f2 210px);
     padding-top: 30px;
+    padding-bottom: 65px;
   }
 }
 
 .example__wrapper {
-  // min-width: 320px;
   margin: 0 auto;
   padding: 0 20px;
 
@@ -82,12 +82,9 @@
 }
 
 .example__list {
-  // display: flex;
-  // justify-content: space-between;
   flex-wrap: wrap;
-  margin: 0 auto 34px;
+  margin: 0 auto 40px;
   align-items: center;
-  // max-width: 320px;
 
   @media (min-width: $tablet-width) {
     display: flex;
@@ -127,6 +124,7 @@
 
   @media (min-width: $tablet-width) {
     width: 162px;
+    padding-bottom: 19px;
   }
 
   @media (min-width: $desktop-width) {
@@ -205,12 +203,6 @@
   }
 }
 
-.example__slider {
-  @media (min-width: $desktop-width) {
-    margin-right: -20px;
-  }
-}
-
 .example__slider-image {
   display: flex;
   justify-content: center;
@@ -220,10 +212,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 25px;
+  margin-top: 17px;
 
   @media (min-width: $tablet-width) {
-    margin-top: 20px;
+    margin-top: 27px;
   }
 }
 
@@ -237,7 +229,15 @@
   @media (min-width: $tablet-width) {
     font-size: 20px;
     line-height: 30px;
-    border-bottom: 1px dotted #000000;
+    border-bottom: 1px dotted rgba($color: #000000, $alpha: 0.2);
+
+    &:hover {
+      border-bottom: 1px dotted rgba($color: #000000, $alpha: 0.4);
+    }
+
+    &:active {
+      border-bottom: none;
+    }
   }
 
   &::after {
@@ -253,21 +253,20 @@
 
   @media (min-width: $tablet-width) {
     display: block;
-    width: 320px;
+    width: 296px;
     overflow: hidden;
   }
 }
 
 .example__slider-before {
   @media (min-width: $tablet-width) {
-    width: 310px;
+    width: 296px;
     overflow: hidden;
   }
-}
 
-.example__slider-picture-after {
-  @media (min-width: $tablet-width) {
-    margin-left: -240px;
+  @media (min-width: $desktop-width) {
+    width: 296px;
+    overflow: hidden;
   }
 }
 
@@ -303,6 +302,10 @@
     margin-left: 201px;
     box-shadow: 0 0 0 1px #cdcdcd;
     background-color: #ffffff;
+
+    &:active {
+      box-shadow: 0 0 0 1px #68b738;
+    }
   }
 
   &::after {

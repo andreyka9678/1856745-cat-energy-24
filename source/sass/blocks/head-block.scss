@@ -54,10 +54,7 @@
 
 .head-block__inner {
   text-align: center;
-  padding: 28px 10px 152px;
-  // background-image: url("../img/index-background-mobile.jpg");
-  // background-repeat: no-repeat;
-  // background-position: center;
+  padding: 28px 10px 155px;
 
   @media (min-width: $tablet-width) {
     background-image: none;
@@ -103,12 +100,16 @@
     text-align: left;
     color: #000000;
   }
+
+  @media (min-width: $desktop-width) {
+    margin-bottom: 50px;
+  }
 }
 
 .head-block__button {
   display: block;
   margin: 0;
-  margin-top: 7px;
+  margin-top: 2px;
   padding: 11px 40px;
   background-color: #68b738;
   width: auto;
@@ -132,17 +133,14 @@
 
   @media (min-width: $tablet-width) {
     position: absolute;
-    // z-index: -1;
     height: 609px;
     width: auto;
     top: 390px;
     left: -90px;
-    // display: block;
   }
 
   @media (min-width: $desktop-width) {
     position: absolute;
-    // z-index: -1;
     height: 499px;
     width: auto;
     top: 160px;

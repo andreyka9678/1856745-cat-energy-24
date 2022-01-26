@@ -11,7 +11,6 @@
 }
 
 .instruction__wrapper {
-  // min-width: 320px;
   padding: 0 20px;
   margin: 0 auto;
 
@@ -21,7 +20,7 @@
 }
 
 .instruction__title {
-  margin: 0 0 38px;
+  margin: 0 0 40px;
   font-size: 36px;
   line-height: 40px;
   font-weight: 400;
@@ -30,12 +29,13 @@
   @media (min-width: $tablet-width) {
     font-size: 60px;
     line-height: 60px;
-    margin-bottom: 72px;
+    margin-bottom: 70px;
     padding-top: 15px;
   }
 
   @media (min-width: $desktop-width) {
     padding-top: 70px;
+    margin-bottom: 73px;
   }
 }
 
@@ -83,7 +83,7 @@
   &::after {
     position: absolute;
     z-index: -1;
-    font-family: "Oswald", sans-serif;
+    font-family: "Oswald", "Arial", sans-serif;
     color: #f2f2f2;
     text-align: center;
 
@@ -91,7 +91,7 @@
       content: counter(li, decimal);
       counter-increment: li;
       top: -38px;
-      right: 70px;
+      right: 77px;
       width: 136px;
       height: 280px;
       font-size: 280px;
@@ -125,7 +125,6 @@
     margin-bottom: 83px;
     position: relative;
     display: block;
-    // min-width: 324px;
     width: 35%;
     font-size: 16px;
     line-height: 24px;

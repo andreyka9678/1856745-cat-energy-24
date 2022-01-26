@@ -1,13 +1,10 @@
 .program-list {
-  // margin: 0 0 20px;
-
   @media (min-width: $tablet-width) {
     margin-bottom: 45px;
   }
 }
 
 .program-list__type {
-  // min-width: 320px;
   margin: 0 auto;
   padding: 0;
 
@@ -61,7 +58,7 @@
     height: 50px;
     border-radius: 50%;
     background-color: #68b738;
-    top: -6px;
+    top: -8px;
     left: -69px;
 
     @media (min-width: $tablet-width) {
@@ -95,8 +92,8 @@
   &--slim::after {
     background-image: url("../img/cat-slim.svg");
     background-position: center;
-    top: -8px;
-    left: -68px;
+    top: -11px;
+    left: -70px;
 
     @media (min-width: $tablet-width) {
       top: 5px;
@@ -180,7 +177,7 @@
 
   @media (min-width: $desktop-width) {
     padding-right: 0;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
   }
 }
 
@@ -209,7 +206,7 @@
     transform: translateY(-50%) translateY(5px);
     width: 24px;
     height: 11px;
-    margin-left: 12px;
+    margin-left: 15px;
     background-image: url("../img/icon-right-arrow.svg");
     background-repeat: no-repeat;
 
@@ -226,6 +223,13 @@
     opacity: 0.3;
   }
 
+  &:hover::after,
+  &:focus::after {
+    background-image: url("../img/icon-right-arrowlong.svg");
+    width: 33px;
+    transition: 0.15s ease;
+  }
+
   @media (min-width: $tablet-width) {
     border-top: none;
     font-size: 20px;
@@ -234,5 +238,6 @@
 
   @media (min-width: $desktop-width) {
     line-height: 30px;
+    margin-bottom: 5px;
   }
 }

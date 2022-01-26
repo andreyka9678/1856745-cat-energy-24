@@ -1,6 +1,6 @@
 .cooperation {
   margin: 0 auto;
-  padding-top: 30px;
+  padding-top: 27px;
 
   @media (min-width: $tablet-width) {
     padding-top: 0;
@@ -9,13 +9,12 @@
   }
 }
 
-.cooperation-index {
+.cooperation--index {
   background-color: #f2f2f2;
 }
 
 .cooperation__wrapper {
-  // min-width: 320px;
-  margin: 0 auto 20px;
+  margin: 0 auto 25px;
   padding: 0 20px;
   display: flex;
   justify-content: space-between;
@@ -24,7 +23,6 @@
     margin: 0;
     padding: 60px 67px 60px 71px;
     align-items: center;
-    // background-color: #ffffff;
   }
 
   @media (min-width: $desktop-width) {
@@ -32,7 +30,7 @@
     z-index: 100;
     top: 95px;
     left: 110px;
-    padding: 62px 76px 59px;
+    padding: 55px 80px 59px;
     width: 570px;
     box-sizing: border-box;
     background-color: #ffffff;
@@ -51,6 +49,10 @@
     font-size: 20px;
     line-height: 26px;
     width: 200px;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding-top: 5px;
   }
 }
 
@@ -71,7 +73,7 @@
   }
 
   @media (min-width: $desktop-width) {
-    width: 170px;
+    width: 160px;
     text-align: left;
   }
 }
@@ -89,8 +91,10 @@
   display: block;
   width: 100%;
   height: 362px;
+  margin-top: -362px;
 
   @media (min-width: $tablet-width) {
     height: 396px;
+    margin-top: -396px;
   }
 }
