@@ -3,6 +3,8 @@
 * Студент: [Andrey Volkov](https://up.htmlacademy.ru/adaptive/24/user/1856745).
 * Наставник: `Андрей Грачев`.
 
+[Опубликованная версия](https://andreyka9678.github.io/cat-energy/)
+
 ---
 
 **Обратите внимание, что папка с вашими исходными файлами — `source/`.**
